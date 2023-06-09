@@ -1,8 +1,13 @@
+import { Body } from "./assets/Body"
+
 export const App = () => {
   // const [count, setCount] = useState(0)
   return (
       <div>
-        <h1>Hola Debi!! ahora ya si está para arrancar el proyecto</h1>
+        <div className="title">
+          <h1>Bienvenidos a FUEGO Y SAZÓN</h1>
+        </div>
+        <Body></Body>
       </div>
   )
 }
