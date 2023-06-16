@@ -2,7 +2,7 @@
     {
         "id":1,
         "title": "hola",
-        "price": 2000,
+        "price": 2500,
         "categoria": "bebidas",
         "images": ["public/img-products/94128_640x428.jpg"]
 
@@ -10,7 +10,7 @@
     {
         "id":2,
         "title": "hola",
-        "price": 2000,
+        "price": 2110,
         "categoria": "bebidas",
         "images": ["public/img-products/271566221_1601576906852599_6445580245237615709_n.jpg"]
 
@@ -18,7 +18,7 @@
     {
         "id":3,
         "title": "hola",
-        "price": 2000,
+        "price": 2090,
         "categoria": "bebidas",
         "images": ["public/img-products/271609655_234091755570711_369724656603015232_n.jpg"]
 
@@ -26,7 +26,7 @@
     {
         "id":4,
         "title": "hola",
-        "price": 2000,
+        "price": 0,
         "categoria": "bebidas",
         "images": ["public/img-products/bistec-a-la-parrilla.jpg"]
 
@@ -34,7 +34,7 @@
     {
         "id":5,
         "title": "hola",
-        "price": 2000,
+        "price": 3010,
         "categoria": "bebidas",
         "images": ["public/img-products/carne_parrilla.jpg"]
 
@@ -42,7 +42,7 @@
     {
         "id":6,
         "title": "hola",
-        "price": 2000,
+        "price": 3600,
         "categoria": "bebidas",
         "images": ["public/img-products/cocinar_en_la_parrilla_a_resurgido_con_fuerza.jpg"]
 
@@ -50,7 +50,7 @@
     {
         "id":7,
         "title": "hola",
-        "price": 2000,
+        "price": 4100,
         "categoria": "bebidas",
         "images": ["public/img-products/mariscos_asados.jpg"]
 
@@ -58,7 +58,7 @@
     {
         "id":8,
         "title": "hola",
-        "price": 2000,
+        "price": 3980,
         "categoria": "bebidas",
         "images": ["public/img-products/RICSZIDQXNFY5M3KE23P3S4NIE.jpg"]
 
@@ -66,7 +66,7 @@
     {
         "id":9,
         "title": "hola",
-        "price": 2000,
+        "price": 1100,
         "categoria": "bebidas",
         "images": ["public/img-products/WU6CPK4XVJAU3JYAWQKRN4LV7A.jpg"]
 

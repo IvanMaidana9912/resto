@@ -4,7 +4,8 @@
 }
 
 .imgGif {
-    margin-top: 15vh;
+    padding-top: 10vh;
+    background-color: rgb(187, 99, 8);
 }
 
 .imgGif img {
@@ -44,4 +45,8 @@
     box-shadow: 0px 0px 148px 9px rgba(0, 0, 0, 0.50) inset;
     -webkit-box-shadow: 0px 0px 148px 9px rgba(0, 0, 0, 0.50) inset;
     -moz-box-shadow: 0px 0px 148px 9px rgba(0, 0, 0, 0.50) inset;
+}
+
+.imgLogo {
+    background-color: black;
 }
