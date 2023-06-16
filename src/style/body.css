@@ -4,7 +4,7 @@
 }
 
 .imgGif {
-    margin-top: 22vh;
+    margin-top: 15vh;
 }
 
 .imgGif img {
@@ -24,6 +24,7 @@
 .buttonCardProduct {
     background-color: rgb(248, 228, 203) !important;
 }
+
 .buttonCardProduct p {
     color: rgb(187, 99, 8) !important;
     margin: 0;
@@ -32,14 +33,22 @@
 .buttonCardProduct:hover {
     background-color: rgb(187, 99, 8) !important;
 }
+
 .buttonCardProduct p:hover {
     color: rgb(248, 228, 203) !important;
-} 
+}
 
 .carrouselCss {
+    /* width: 50% !important;
+    margin-left: 25%;
+    margin-right: 25%; */
     height: 60vh;
-    padding-left: 10vh;
-    padding-right: 10vh;
-    background-size: auto;
-    
+    align-content: center;
+    background-size: cover;
+}
+
+.carrouselImage {
+    box-shadow: 0px 0px 148px 9px rgba(0, 0, 0, 0.50) inset;
+    -webkit-box-shadow: 0px 0px 148px 9px rgba(0, 0, 0, 0.50) inset;
+    -moz-box-shadow: 0px 0px 148px 9px rgba(0, 0, 0, 0.50) inset;
 }
