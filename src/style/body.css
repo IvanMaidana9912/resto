@@ -1,20 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .imgGif {
-    display: flex;
-    justify-content: center;
     margin-top: 22vh;
 }
 
 .imgGif img {
-    border-radius: 50%;
     width: 40vh;
 }
+
 .title {
-    display: flex;
-    justify-content: center;
     margin-top: 5vh;
     background-color: rgb(247, 133, 15);
     color: rgb(55, 40, 26);
 }
+
 .title h1 {
     padding: 2vh;
 }
