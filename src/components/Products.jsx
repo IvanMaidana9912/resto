@@ -31,11 +31,11 @@ export const Products = (product) => {
           {datas.price > minimoPrecioProducto ? `$${datas.price} Pesos` : "Sin Stock"}
         </Typography>
         <Typography level="body2">
-          <Link onClick={() => { window.open("https://www.facebook.com/", '_blank') }} className="text-decoration-none text-muted">Más Info</Link>
+          <Link onClick={() => { window.open(`/item/${datas.id}`, '_blank') }} className="text-decoration-none text-muted">Más Info</Link>
         </Typography>
       </CardContent>
       <CardOverflow>
-        <Button variant="solid" size="lg" className='buttonCardProduct' href='/item/1'>
+        <Button variant="solid" size="lg" className='buttonCardProduct'>
           Add to cart
         </Button>
       </CardOverflow>

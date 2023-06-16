@@ -1,11 +1,14 @@
 import { Products } from "../components/Products"
 import datas from '../../bbdd/data.json';
 import { Carrousel } from "../components/Carrousel";
+import { Nav } from "../layout/Navbar";
+import { Footer } from "../layout/Footer";
 
 export const Body = () => {
 
     return (
         <div>
+            <Nav />
             <div className="title d-flex justify-content-center imgLogo">
                 <h1 className="text-light">Bienvenidos a FUEGO Y SAZÓN</h1>
             </div>
@@ -21,6 +24,7 @@ export const Body = () => {
                     }
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
