@@ -35,7 +35,7 @@ export const Products = (product) => {
         </Typography>
       </CardContent>
       <CardOverflow>
-        <Button variant="solid" size="lg" className='buttonCardProduct' type='button'>
+        <Button variant="solid" size="lg" className='buttonCardProduct' href='/item/1'>
           Add to cart
         </Button>
       </CardOverflow>
