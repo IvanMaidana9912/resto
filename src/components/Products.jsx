@@ -32,7 +32,7 @@ export default function Products() {
       </CardContent>
       <CardOverflow>
         <Button variant="solid" size="lg" className='buttonCardProduct'>
-          <p>Add to cart</p>
+        Add to cart
         </Button>
       </CardOverflow>
     </Card>
