@@ -33,9 +33,6 @@
 }
 
 .carrouselCss {
-    /* width: 50% !important;
-    margin-left: 25%;
-    margin-right: 25%; */
     height: 60vh;
     position: absolute;
     z-index: -1;
@@ -71,4 +68,19 @@
 .nav-tabs .nav-link:focus {
     transition: 500ms;
     border-color: rgb(207, 140, 72);
+}
+
+.carritoImg {
+    filter: invert(100%);
+    width: 30px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.li {
+    width: 40px;
+}
+
+.navColor {
+    background-color: black;
 }
