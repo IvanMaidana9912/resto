@@ -6,13 +6,16 @@ import CardContent from '@mui/joy/CardContent';
 import CardOverflow from '@mui/joy/CardOverflow';
 import Typography from '@mui/joy/Typography';
 import { Link } from 'react-router-dom';
+import { cantidadCarritoInicial } from '../layout/Navbar';
 
 const minimoPrecioProducto = 0;
+export let cantidadCarritoFinal = cantidadCarritoInicial;
 
 export const Products = (product) => {
   const [[t, datas]] = Object.entries(product);
   const eventoBoton = () => {
-    console.log(datas.id);
+    cantidadCarritoFinal++;
+    console.log(`${datas.id} ${cantidadCarritoFinal} ${datas.price}`);
   }
   return (
     <Card sx={{ width: 320, maxWidth: '100%', boxShadow: 'lg' }} className="mt-5 mb-5 mx-3">

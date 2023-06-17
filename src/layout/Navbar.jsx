@@ -1,6 +1,10 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import { cantidadCarritoFinal } from '../components/Products';
+
+export let cantidadCarritoInicial = 0;
 
 export const Nav = () => {
+    console.log(cantidadCarritoFinal);
     return (
         <div className="p-2 navColor">
             <ul className="nav nav-tabs justify-content-end">
@@ -8,12 +12,15 @@ export const Nav = () => {
                     <Link className="nav-link text-light" aria-current="page" href="#">Active</Link>
                 </li>
                 <li className="li">
-                    <Link className="navbar-brand position-relative" href="#">
+                    <Link className="navbar-brand position-relative" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                         <img src="../../public/image-logo/cart-outline.svg" alt="" className="d-inline-block align-items-end carritoImg" />
-                        <span class="position-absolute top-50 start-100 translate-middle badge rounded-pill bg-danger">
-                            9
-                            <span class="visually-hidden">unread messages</span>
-                        </span>
+                        {
+                            cantidadCarritoInicial > 0 ? <span className="position-absolute top-50 start-100 translate-middle badge rounded-pill bg-danger" id="spanCarrito">
+                                {cantidadCarritoInicial != cantidadCarritoFinal ? cantidadCarritoFinal : cantidadCarritoInicial}
+                                <span className="visually-hidden">unread messages</span>
+                            </span> : ""
+                        }
+
                     </Link>
                 </li>
                 <li className="nav-item">
