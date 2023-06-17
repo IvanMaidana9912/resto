@@ -8,25 +8,34 @@ export const Carrousel = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active carrouselImage">
-                    <img src="../../public/img-products/271609655_234091755570711_369724656603015232_n.jpg" className="d-block w-100 carrouselCss" alt="..."></img>
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
+                    <div>
+                        <img src="../../public/img-products/271609655_234091755570711_369724656603015232_n.jpg" className="d-block w-100 carrouselCss" alt="..."></img>
+                        <div className="prueba"></div>
+                    </div>
+                    <div className="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
                 </div>
                 <div className="carousel-item carrouselImage">
-                    <img src="../../public/img-products/bistec-a-la-parrilla.jpg" className="d-block w-100 carrouselCss" alt="..."></img>
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
+                    <div>
+                        <img src="../../public/img-products/bistec-a-la-parrilla.jpg" className="d-block w-100 carrouselCss" alt="..."></img>
+                        <div className="prueba"></div>
+                    </div>
+                    <div className="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
                 </div>
                 <div className="carousel-item carrouselImage">
-                    <img src="../../public/img-products/94128_640x428.jpg" className="d-block w-100 carrouselCss" alt="..."></img>
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
+                    <div>
+                        <img src="../../public/img-products/94128_640x428.jpg" className="d-block w-100 carrouselCss" alt="..."></img>
+                        <div className="prueba"></div>
+                    </div>
+                    <div className="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">

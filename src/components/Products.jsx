@@ -11,7 +11,9 @@ const minimoPrecioProducto = 0;
 
 export const Products = (product) => {
   const [[t, datas]] = Object.entries(product);
-
+  const eventoBoton = () => {
+    console.log(datas.id);
+  }
   return (
     <Card sx={{ width: 320, maxWidth: '100%', boxShadow: 'lg' }} className="mt-5 mb-5 mx-3">
       <CardOverflow>
@@ -35,7 +37,7 @@ export const Products = (product) => {
         </Typography>
       </CardContent>
       <CardOverflow>
-        <Button variant="solid" size="lg" className='buttonCardProduct'>
+        <Button variant="solid" size="lg" onClick={eventoBoton} className='buttonCardProduct'>
           Add to cart
         </Button>
       </CardOverflow>

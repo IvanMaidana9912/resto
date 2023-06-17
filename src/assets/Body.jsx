@@ -9,9 +9,6 @@ export const Body = () => {
     return (
         <div>
             <Nav />
-            <div className="title d-flex justify-content-center imgLogo">
-                <h1 className="text-light">Bienvenidos a FUEGO Y SAZÓN</h1>
-            </div>
             <Carrousel />
             <div className="d-flex justify-content-center flex-column align-items-center">
                 <div className="imgGif w-100"></div>

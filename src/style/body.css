@@ -37,8 +37,13 @@
     margin-left: 25%;
     margin-right: 25%; */
     height: 60vh;
-    align-content: center;
-    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+.prueba {
+    background-color: rgba(0, 0, 0, .3);
+    width: 100%;
+    height: 60vh;
 }
 
 .carrouselImage {
@@ -49,4 +54,21 @@
 
 .imgLogo {
     background-color: black;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 1vw !important;
+    height: 1vw !important;
+}
+
+.nav-tabs {
+    border-color:rgb(207, 140, 72);
+}
+.nav-tabs .nav-link:hover {
+    transition: 500ms;
+    border-color: rgb(207, 140, 72);
+}
+.nav-tabs .nav-link:focus {
+    transition: 500ms;
+    border-color: rgb(207, 140, 72);
 }
