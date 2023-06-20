@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { cantidadCarritoFinal } from '../components/Products';
 
-export let cantidadCarritoInicial = 1;
+export let cantidadCarritoInicial = 0;
 
 export const Nav = () => {
     console.log(cantidadCarritoFinal);

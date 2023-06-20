@@ -43,7 +43,7 @@
     height: 60vh;
 }
 
-.carrouselImage {
+.carrouselImage {/*eliminar*/
     box-shadow: 0px 0px 148px 9px rgba(0, 0, 0, 0.50) inset;
     -webkit-box-shadow: 0px 0px 148px 9px rgba(0, 0, 0, 0.50) inset;
     -moz-box-shadow: 0px 0px 148px 9px rgba(0, 0, 0, 0.50) inset;
